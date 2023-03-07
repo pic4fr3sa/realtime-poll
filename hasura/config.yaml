@@ -1,0 +1,12 @@
+version: 3
+endpoint: https://dominant-terrier-65.hasura.app
+# x-hasura-admin-secret: r6OON9ZDp5fKtMZy6ntcg86LhsbZIavTMrGjm5vM5zYmJUT0K88Iz8vfh8lrQK54
+metadata_directory: metadata
+migrations_directory: migrations
+seeds_directory: seeds
+actions:
+  kind: synchronous
+  handler_webhook_baseurl: https://dominant-terrier-65.hasura.app
+  codegen:
+    framework: ""
+    output_dir: ""
